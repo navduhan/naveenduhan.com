@@ -1,0 +1,19 @@
+.home-right{
+    height: 100%;
+  }
+
+  .home-right-main{
+    height: 100%;
+  }
+
+  .home-right-main-img{
+      height: 60vh;
+      margin: auto;    
+      display: block;
+  }
+
+  .home-right-footer{
+     height: 10vh;
+     width: 100%;
+  }
+
