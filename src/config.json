@@ -1,0 +1,11 @@
+{
+    "apps" : [
+        {
+            "name" : "nduhan",
+            "script" : "npx",
+            "interpreter" : "none",
+            "args" : "serve -s build -l 5500"
+        }
+
+    ]
+}
