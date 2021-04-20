@@ -5,10 +5,10 @@ import {
   Route,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from "./pages/homePage.js";
-import About from "./pages/aboutMe.js";
-import Publications from "./pages/publications.js"
-import Contact from "./pages/contactPage";
+import Home from "./src/pages/homePage.js";
+import About from "./src/pages/aboutMe.js";
+import Publications from "./src/pages/publications.js"
+import Contact from "./src/pages/contactPage";
 
 
 // import Project from "../pages/projects";
