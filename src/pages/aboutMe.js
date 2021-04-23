@@ -53,27 +53,39 @@ class About extends Component {
               <HamburgerMenu />
              <Col xl={8}className="about-left-main-col">
              <h1 className="first-line">
-            About 
+            About Me
             </h1>
-             <Card >
+             {/* <Card > */}
   
-  <Card.Body>
-    {/* <Card.Title className="card-me">About</Card.Title> */}
-    <Card.Text>
-    <h4>
-         <ReactTypingEffect
-           text="I am a Bioinformatics Doctoral student at Department of Plants, Soils and Climate, Utah State University, Logan, UT, USA. My research focuses   " //text=["Hello.", "World!"]
-           className="typical"
-           speed="50"
-           eraseDelay="50000000"
-           typingDelay="100"
-           />
-         </h4 >
+  {/* <Card.Body>
+    <Card.Title className="card-me">About</Card.Title>
+    <Card.Text> */}
+    <p className="myText">
+    I am Naveen Duhan a bioinformatics doctoral student at the Department of Plants, Soils, and Climate, Utah State University, Logan, Utah, USA.
+    </p >
+    <p className="myText">
+    The initiation and development of academic interest is always a slow process and my understanding of Bioinformatics has undergone maturation through a series of academic activities.
+    As a student of life sciences at University College Kurukshetra, I had a good understanding of Zoology, Botany, and Chemistry, but to comprehend theinformation of bioinformatics 
+    I realized that I need equally sound knowledge base in informatics. To develop my interdisciplinary knowledge, 
+    I joined an add-on certificate diploma in bioinformatics in evening classes (in the final year of my Bachelor's Degree).
+     I tried desperately to be perfect in informatics techniques through self-study, 
+     consulting a large amount of relevant technical literature, attending lectures, and discussing with classmates.
+     After completing my Bachelor's from Kurukshetra University I joined Master's in Bioinformatics with research training 
+     at Punjabi University, which provides me a strong theoretical and practical grounds of 
+     Bioinformatics to concepts of molecular biology including subjects Biochemistry, Cheminformatics, 
+     Immunology, Molecular modeling, Genomics, Proteomics, and several programming courses in Python, 
+     PERL, Java with Biostatistics and Numerical optimization techniques. 
+     This training helped me to evolve into a diligent scholar with broad insight, 
+     capable of connecting ideas from varied disciplines to understand and approach the mystery of
+      life that is regulated by the information encoded by four letters (A, T, Cor, G). Fortunately, 
+      this complex system that holds life captive of hard-wired information can now be comprehended by 
+      analyzing unprecedented data produced with emerging next-generation sequencing technologies.
+    </p>
 
-    </Card.Text>
+    {/* </Card.Text>
    
   </Card.Body>
-</Card>
+</Card> */}
               </Col>
            </Row>
           <Row className="About-footer">
