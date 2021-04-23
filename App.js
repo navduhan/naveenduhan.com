@@ -1,3 +1,3 @@
 
-const react_app = require ("./public/index.html");
+const react_app = require ("./build/index.html");
 module.exports = {create: react_app.create};
