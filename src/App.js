@@ -1,7 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,14 +16,14 @@ import Contact from "./pages/contactPage";
 export default function Nav() {
   return (
     <Router>
-     <Switch>
+     <Routes>
        
-        <Route path="/home" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/publications" component={Publications} />
-        <Route path="/contact" component={Contact} />
-        <Route path="*" component={Home} />
-      </Switch>
+        <Route path="/home" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/publications" element={<Publications/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="*" element={<Home/>} />
+      </Routes>
     </Router>
   );
 }
