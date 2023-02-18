@@ -33,6 +33,7 @@
     },
     "scripts": {
         "start": "react-scripts start",
+        "local": "serve -s build -l 3750",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
