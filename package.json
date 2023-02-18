@@ -36,7 +36,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "update": "git pull origin main && npm i && react-scripts build && pm2 restart nduhan"
+        "update": "git pull origin main && npm i && react-scripts build && pm2 restart naveenduhan.com"
     },
     "eslintConfig": {
         "extends": "react-app"
