@@ -1,0 +1,30 @@
+.publication-card {
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .author{
+    text-align: left;
+  }
+
+  .title{
+    text-align: left;
+  }
+
+  .journal{
+    text-align: left;
+  }
+  
+  
+  
+  
+ 

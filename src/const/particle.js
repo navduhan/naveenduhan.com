@@ -1,4 +1,4 @@
-const particles = {
+const particles={
     "particles": {
        "number": {
          "value": 130,
@@ -107,6 +107,5 @@ const particles = {
        }
      },
      "retina_detect": true
-   } 
-
-   export default particles
+    }
+  export default particles

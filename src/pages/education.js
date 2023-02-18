@@ -1,11 +1,8 @@
 import React from "react";
-
-
-import PublicationCard from "../const/publicationcard";
-import "./publications.css";
-import { publication } from "../components/mypub.js";
+import Educations from "../components/educationscard";
+import EducationImg from "../components/edimage";
+import "./education.css";
 import { Fade } from "react-reveal";
-import PublicationImg from "../components/pubimage";
 import HamburgerMenu from "../components/Hmenu.js"
 import Footer from "../components/footer";
 import Animate from 'react-smooth';
@@ -13,20 +10,7 @@ import particles from '../const/about_particle.js';
 import Particles from 'react-particles-js';
 import {Helmet} from 'react-helmet';
 import {Container, Row} from 'react-bootstrap';
-
-import { pub } from "../components/mypub.js";
-const ColoredLine = ({ color }) => (
-  <hr
-      style={{
-          color: color,
-          backgroundColor: color,
-          height: 5,
-          margin:2 
-      }}
-  />
-);
-
-function Publications(props) {
+function Education(props) {
   const theme = {
     name: "dark",
     body: "#1D1D1D",
@@ -47,7 +31,7 @@ function Publications(props) {
     <Container className="education-header" fluid={true}>
     <Helmet>
     <meta charSet="utf-8" />
-    <title>Publications | Naveen Duhan</title>
+    <title>Education | Naveen Duhan</title>
     <link rel="canonical" href="http://naveenduhan.com/about" />
     <meta name="description" content="Naveen Duhan | About - Bioinformatics | Python for Biology | NGS Data Analysis
         Experienced Bioinformatician with a demonstrated history of working in Bioinformatics and Computational Biology filed. 
@@ -61,53 +45,39 @@ function Publications(props) {
             className="particle"
     />
 <HamburgerMenu />
-<Row>
-    <div className="experience-main">
-      
-      <div className="basic-experience">
+    <Row>
+    <div className="education-main">
+    
+   
+      <div className="basic-education">
         <Fade bottom duration={2000} distance="40px">
-          <div className="experience-heading-div">
-            <div className="experience-heading-img-div">
-              <PublicationImg theme={theme} />
+          <div className="heading-div">
+            <div className="heading-img-div">
+              <EducationImg theme={theme} />
             </div>
-            <div className="experience-heading-text-div">
-              <h1
-                className="experience-heading-text"
-                style={{ color: theme.text }}
-              >
-                {publication.title}
+            <div className="heading-text-div">
+              <h1 className="heading-text" style={{ color: theme.text }}>
+                Education
               </h1>
-              <h3
-                className="experience-heading-sub-text"
-                style={{ color: theme.text }}
-              >
-                {publication["subtitle"]}
+              <h3 className="heading-sub-text" style={{ color: theme.text }}>
+                Educational Qualification
               </h3>
               <p
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {publication["description"]}
+                I actively participate in hackathons and other tech-related
+                activities. Below are some of my major certifications.
               </p>
             </div>
           </div>
         </Fade>
+        <Educations theme={props.theme} />
+        
       </div>
-      
+     
     </div>
     </Row>
-    <div className=" row justify-content-center mt-5">
-    <h3 className="mh">Research Articles</h3>
-    <Fade right duration={2000}>
-   <div className="col-md-12 pub-card">
-   {pub.pub.map((pub, index) => {
-          return <PublicationCard publication={pub} key={index+1} />;
-        })}
-   </div>
-</Fade>
-    
-    
-     </div>
     </Animate>
     <Row className="App-footer">
               <Footer />
@@ -116,4 +86,4 @@ function Publications(props) {
   );
 }
 
-export default Publications;
+export default Education;

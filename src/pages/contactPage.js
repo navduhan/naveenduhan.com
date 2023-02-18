@@ -6,7 +6,7 @@ import Animate from 'react-smooth';
 import HamburgerMenu from '../components/Hmenu.js';
 import ContactLeft from '../components/contactLeft.js';
 import EmailForm from '../components/email.js';
-import ReactGa from 'react-ga';
+
 import {Helmet} from 'react-helmet';
 import particles from '../const/contact_particle.js';
 import Particles from 'react-particles-js';

@@ -5,7 +5,7 @@ import {
   Row,
   Col,
   Button,
-  ButtonToolbar
+ 
  } from 'react-bootstrap';
 import ReactTypingEffect from 'react-typing-effect';
 import {
@@ -18,7 +18,7 @@ import {
     <Row className="home-left-main">
        <Col xl={12} className="home-left-main-col">
          <h1 className="first-line">
-          Duhan Bioinfo
+          Naveen Duhan
          </h1>
          <h2 className="second_line">
            Welcomes You!
@@ -35,7 +35,7 @@ import {
           
            <br />
           
-           <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/about" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">About Me</Link></Button> &nbsp;
+           {/* <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/about" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">About Me</Link></Button> &nbsp; */}
            <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link to="/research" style={{ textDecoration: 'none', color: 'white' }} className="home-left-aboutme">Research</Link></Button> &nbsp;
            <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link style={{ textDecoration: 'none', color: 'white' }} to="/publications" className="home-left-aboutme">Publications</Link></Button> &nbsp;
            <Button variant="outline-light" size="lg" className="home-left-aboutmme-btn"><Link style={{ textDecoration: 'none', color: 'white' }} to="/contact" className="home-left-aboutme">Contact</Link></Button> 

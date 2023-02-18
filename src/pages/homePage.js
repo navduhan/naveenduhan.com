@@ -11,8 +11,7 @@ import {
 } from 'react-bootstrap';
 import Animate from 'react-smooth';
 import Particles from 'react-particles-js';
-import particles from '../const/particle.js';
-import ReactGa from 'react-ga';
+import particles from '../const/about_particle';
 import {Helmet} from 'react-helmet';
 
 // //--Naveen Duhan Portfolio website Google analytics--
@@ -24,6 +23,8 @@ import {Helmet} from 'react-helmet';
 // //--Naveen Duhan Portfolio website Google analytics--
 
 function Home() {
+
+
   // Analytics()
   return (
       <div>
@@ -34,14 +35,14 @@ function Home() {
                   <meta name="description" content="Naveen Duhan | Home -Bioinformatician | Machine Learing  | NGS Data analysis" />
          </Helmet>
           <Animate to="1" from="0" attributeName="opacity">
-            <Particles
+          <Particles
             params={particles}
             className="particle"
             />
           <Container className="App-header" fluid={true}>
-          <Row className="Hamburger-menu">
+         
             <HamburgerMenu />
-            </Row>
+       
             <Row className="App-main">
             
               <Col  xl={7}  className="App-left">
@@ -51,6 +52,8 @@ function Home() {
                 <HomeRight />
               </Col>
             </Row>
+
+
             <Row className="App-footer">
               <Footer />
             </Row>
