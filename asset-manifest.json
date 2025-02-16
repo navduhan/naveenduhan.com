@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/naveenduhan.com/static/css/main.922480ed.css",
+    "main.js": "/naveenduhan.com/static/js/main.9a2581dc.js",
+    "static/media/log.png": "/naveenduhan.com/static/media/log.e2d206a88d7399c736ff.png",
+    "static/media/naveen.png": "/naveenduhan.com/static/media/naveen.4284fc572718c3a97f90.png",
+    "static/media/usu2.png": "/naveenduhan.com/static/media/usu2.47e9d77dcdec1be7d2be.png",
+    "static/media/pbi.png": "/naveenduhan.com/static/media/pbi.39e449f5cfe80ec81ad7.png",
+    "static/media/kuk.png": "/naveenduhan.com/static/media/kuk.857991581cf821c312dd.png",
+    "static/media/research.svg": "/naveenduhan.com/static/media/research.c06ee026728a743629be.svg",
+    "static/media/usu.png": "/naveenduhan.com/static/media/usu.9f2086fce239ae196007.png",
+    "static/media/pub.svg": "/naveenduhan.com/static/media/pub.b709e100314ea6f9b75b.svg",
+    "static/media/undraw_online_articles_re_yrkj.svg": "/naveenduhan.com/static/media/undraw_online_articles_re_yrkj.4d5c403940e144604b1a.svg",
+    "static/media/D.png": "/naveenduhan.com/static/media/D.f16085ec76a47c9001ec.png",
+    "index.html": "/naveenduhan.com/index.html",
+    "main.922480ed.css.map": "/naveenduhan.com/static/css/main.922480ed.css.map",
+    "main.9a2581dc.js.map": "/naveenduhan.com/static/js/main.9a2581dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.922480ed.css",
+    "static/js/main.9a2581dc.js"
+  ]
+}
