@@ -1,5 +1,6 @@
 {
     "name": "portfolio-2020",
+    "homepage": "https://navduhan.github.io/naveenduhan.com",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -32,12 +33,8 @@
         "styled-components": "^5.3.3"
     },
     "scripts": {
-        "start": "react-scripts start",
-        "local": "serve -s build -l 3750",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "update": "git pull origin main && npm i && react-scripts build && pm2 restart naveenduhan.com"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -53,5 +50,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "gh-pages": "^6.3.0"
     }
 }
