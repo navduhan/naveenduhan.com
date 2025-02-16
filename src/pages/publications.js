@@ -15,16 +15,16 @@ import {Helmet} from 'react-helmet';
 import {Container, Row} from 'react-bootstrap';
 
 import { pub } from "../components/mypub.js";
-const ColoredLine = ({ color }) => (
-  <hr
-      style={{
-          color: color,
-          backgroundColor: color,
-          height: 5,
-          margin:2 
-      }}
-  />
-);
+// const ColoredLine = ({ color }) => (
+//   <hr
+//       style={{
+//           color: color,
+//           backgroundColor: color,
+//           height: 5,
+//           margin:2 
+//       }}
+//   />
+// );
 
 function Publications(props) {
   const theme = {

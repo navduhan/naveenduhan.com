@@ -1,7 +1,7 @@
 import React from "react";
 import "./publicationcard.css";
-import { Fade, Flip } from "react-reveal";
-import { style } from "glamor";
+// import { Fade, Flip } from "react-reveal";
+// import { style } from "glamor";
 
 
 function PublicationCard(props) {

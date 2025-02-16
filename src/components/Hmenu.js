@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hmenu.css";
 import { NavLink, Link } from "react-router-dom";
-import log from "../assets/log.png";
-import { Image } from "react-bootstrap";
+// import log from "../assets/log.png";
+// import { Image } from "react-bootstrap";
 function Hmenu() {
   return (
     

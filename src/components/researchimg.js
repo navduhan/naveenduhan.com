@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ResearchImg(props) {
-  const theme = props.theme;
+  // const theme = props.theme;
   return (
     <svg
       data-name="Layer 1"
