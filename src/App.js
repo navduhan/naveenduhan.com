@@ -18,12 +18,12 @@ export default function Nav() {
     <Router>
      <Routes>
        
-        <Route path="/home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/research" element={<Research/>} />
         <Route path="/education" element={<Education/>} />
         <Route path="/publications" element={<Publications/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="*" element={<Home/>} />
+        {/* <Route path="*" element={<Home/>} /> */}
       </Routes>
     </Router>
   );
